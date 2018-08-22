@@ -58,7 +58,6 @@ class AsyncPaginate extends Component {
 
   onMenuClose = () => {
     this.setState({
-      search: '',
       menuIsOpen: false,
     });
   }
