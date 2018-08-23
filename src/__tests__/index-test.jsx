@@ -487,6 +487,5 @@ test('should clean search and menuIsOpen on close select', () => {
 
   wrapper.find(SelectBase).prop('onMenuClose')();
 
-  expect(wrapper.state('search')).toBe('');
   expect(wrapper.state('menuIsOpen')).toBe(false);
 });
