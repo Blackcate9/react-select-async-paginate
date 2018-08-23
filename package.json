@@ -11,7 +11,7 @@
     "lint": "eslint src --ext .js,.jsx",
     "test:unit": "jest",
     "test": "yarn lint && yarn test:unit",
-    "prepublish": "npm run build"
+    "prepublish": "yarn build"
   },
   "peerDependencies": {
     "prop-types": "^15.0.0",
